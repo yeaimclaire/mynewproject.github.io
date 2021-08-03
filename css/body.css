@@ -1,0 +1,301 @@
+body{
+    position: relative;
+}
+
+.bg{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1
+}
+
+.text-black{
+    color: black;
+    font-size: 40px;
+}
+
+.tebel-banget{
+    font-weight: 900;
+}
+
+.tebel-sedang{
+    font-weight: bold;
+}
+
+.text-moklet{
+    color: black;
+    font-size: 50px;
+}
+
+.tebel-sedikit{
+    font-weight:500;
+}
+
+.desc{
+    max-width: 400px;
+}
+
+.button{
+    background-color: #fff;
+    border: none;
+    color: #DC143C;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: #DC143C;
+    color: white;
+}
+
+.gambar{
+    display: none;
+}
+
+.img{
+    padding-top: 60px;
+    padding-left: 60px;
+    width: 655px;
+    z-index: -1;
+}
+
+section h1{
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+}
+
+.text-isi{
+    color: black;
+    font-size: 20px;
+}
+
+.contents{
+    height: 150px;
+    margin-top: 100px;
+}
+
+.contents-item{
+    text-align: center;
+    float:left;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.contents-item p{
+    text-align: center;
+    font-size: 17px;
+}
+
+.footer{
+    background-color: #e04e4e;
+    color: #fff;
+    height: 250px;
+    padding: 40px;
+}
+.footer-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}
+
+section h3{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile-s h1{
+    font-size: 35px;
+    font-weight: 650;
+    text-align: center;
+    background-color: #e04e4e;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.profile-s h2{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.profile-s p{
+    font-size: 17px;
+    color: #A9A9A9;
+    margin-left: 70px;
+}
+
+.mo{
+    font-weight: bold;
+    color: #A9A9A9;
+    margin-left: 70px;
+}
+
+.visi1 h1{
+    font-size: 35px;
+    font-weight: 650;
+    text-align: center;
+    background-color: #e04e4e;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.visi1 h2{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.visi1 h3{
+    font-size: 30px;
+    color: black;
+    margin-left: 70px;
+}
+
+.visi1 p{
+    font-size: 17px;
+    color: #A9A9A9;
+    margin-left: 70px;
+}
+
+section h4{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile-j h1{
+    font-size: 35px;
+    font-weight: 650;
+    text-align: center;
+    background-color: #e04e4e;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.profile-j h2{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.profile-j h3{
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.profile-j h4{
+    font-size: 25px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+.profile-j p{
+    font-size: 17px;
+    color: #A9A9A9;
+    margin-left: 70px;
+}
+
+.profile-e h1{
+    font-size: 35px;
+    font-weight: 650;
+    text-align: center;
+    background-color: #e04e4e;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.profile-e h2{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.profile-e h3{
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-left: 70px;
+}
+
+.profile-e p{
+    font-size: 17px;
+    color: #A9A9A9;
+    margin-left: 70px;
+}
+
+section h5{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.profile-b h1{
+    font-size: 35px;
+    font-weight: 650;
+    text-align: center;
+    background-color: #e04e4e;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.profile-b h2{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.profile-b h3{
+    font-size: 30px;
+    text-align: left;
+    color: black;
+    font-weight: 600;
+    margin-left: 70px;
+}
+
+.profile-b p{
+    font-size: 17px;
+    color: #A9A9A9;
+    margin-left: 70px;
+}
